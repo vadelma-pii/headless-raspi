@@ -13,6 +13,8 @@ Files:
    * country=FI - put in your country code if not in Finland (SE, NO, DK, UK, US, DE, FR...)
    * ssid="YOUR_WIFI_SSID" - your WiFi SSID goes here (e.g. "My Phone Hotspot")
    * psk="YOUR_WIFI_PASSWORD" - your WiFi password goes here
+   
+If your Raspberry Pi only blinks the red light, double check the SSID and WiFi password.
 
 Tiedostot, joita muokkaamalla Raspberry Pin saa käyntiin ilman näyttöä. Nämä laitetaan boot-osiolle, joka on Raspbian-kortin pienempi osio.
 
@@ -28,3 +30,5 @@ Tiedostot:
    * country=FI - jos et ole Suomessa, vaihda oikea maatunnus (SE, NO, DK, UK, US, DE, FR...)
    * ssid="YOUR_WIFI_SSID" - vaihda tekstin YOUR_WIFI_SSID tilalle WLAN-verkkosi nimi
    * psk="YOUR_WIFI_PASSWORD" - vaihda tekstin YOUR_WIFI_PASSWORD tilalle WLAN-verkkosi salasana
+
+Jos Raspberry Pi jää vilkuttamaan punaista valoa, tarkista että SSID ja WLANin salasana ovat varmasti oikein.
